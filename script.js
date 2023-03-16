@@ -13,5 +13,5 @@ function calculateMinCost() {
 		inputArr.push(nr);
 		inputArr.sort(function(a,b) {return a-b; });
 	}
-    document.querySelector("result").textcontent = cost;
+    document.querySelector("#result").textcontent = cost;
 }
